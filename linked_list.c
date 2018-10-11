@@ -30,6 +30,7 @@ struct node * free_list(struct node *linked_node) {
 		free(linked_node);
 		if(i) {
 			struct node *val = linked_node;
+			i = 0;
 		}
 		linked_node = following;
 	}
